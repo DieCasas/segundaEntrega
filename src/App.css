@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.presentacion{
+    color: #fff;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #673114;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+.carrito {
+    width: 100px;
+    color: black;
+    position: relative;
+    top: 175px;
+    left: 1690px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.img{
+    width: 50px;
+    height: 30px;
+    color: black;
+}
+
+
+.logo{
+    margin-left: 20px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.containerCards{
+    display: flex;
+    margin: 90px;
+    gap: 70px;
+    flex-flow: wrap;
+}
+
+.containerButton{
+    display: flex;
+    gap: 20px;
+}
+
+.boton{
+    margin-top: 8px;
+}
+
+
