@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+.fondo{
+    background-image: url(https://i.pinimg.com/736x/99/ee/cb/99eecb881a0fa614b4b678cf0c3f5a09.jpg);
+}
 
 .header{
     text-align: center;
-    margin-top: 60px;
+    position: relative;
+    top: 50px;
 }
 
 
@@ -54,9 +58,10 @@
 
 .containerCards{
     display: flex;
-    margin: 90px;
+    margin: 90px 0 0px 90px;
     gap: 70px;
     flex-flow: wrap;
+    padding-bottom: 50px;
 }
 
 .containerButton{
