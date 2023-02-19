@@ -1,17 +1,29 @@
 import React from 'react'
 import CartWidget from './CartWidget'
+import { Link } from 'react-router-dom'
 
 
 const NavBar = () => {
   return (  
     <div>
       <div className='carrito'>
-        <CartWidget />
+        <Link to={'/cart'}>
+          <CartWidget />
+        </Link>
       </div>
       <div className='navBar'>
-        <button>Home</button>
-        <button>Tradicionales</button>
-        <button>Veggie</button>
+      
+        <Link to={"/"}>
+          <button>Home</button>
+        </Link>
+        
+        <Link to={`/category/${"tradicional"}`}>
+          <button>Tradicionales</button>
+        </Link >
+
+        <Link to={`/category/${"veggie"}`}>
+          <button>Veggie</button>
+        </Link>
       </div>
     </div>
   )

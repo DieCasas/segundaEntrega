@@ -4,7 +4,7 @@ import { Button } from '@chakra-ui/react';
 import Swal from 'sweetalert2';
 
 
-const Contador = () => {
+const Count = () => {
 
   const [counter, setCounter] = useState(0);
 
@@ -41,4 +41,4 @@ const Contador = () => {
   )
 }
 
-export default Contador
+export default Count
