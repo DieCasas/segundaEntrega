@@ -4,4 +4,4 @@ En esta etapa el proyecto lleva un buen porcentaje del mismo, ya desarrollado. E
 
 **_Dejo un gif demostrando la funcionalidad del proyecto_**
 
-
+![Exito.gif](/src/Assets/Exito.gif)
