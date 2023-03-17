@@ -5,7 +5,8 @@
         "img": "https://i.pinimg.com/236x/bf/0a/52/bf0a5208197fc21a9e85f20128e6c37f.jpg",
         "details": "Bacon, Egg & Cheese Biscuit breakfast sandwich features a warm, buttermilk biscuit brushed with real butter",
         "price": "$4",
-        "category": "tradicional"
+        "category": "tradicional",
+        "stock" : 5
     }
     ,
     {
@@ -14,7 +15,9 @@
         "img": "https://i.pinimg.com/236x/62/b8/df/62b8df219d1caac6ca43828ed424a0e5.jpg",
         "details": "We place a freshly cracked Grade A egg on a toasted English Muffin topped with real butter and add lean Canadian bacon and melty American cheese",
         "price": "$4",
-        "category": "tradicional"
+        "category": "tradicional",
+        "stock" : 5
+
     }
     ,
     {
@@ -23,7 +26,8 @@
         "img": "https://i.pinimg.com/236x/e6/d5/e9/e6d5e980dc7ee3a13516b6dd147fa614.jpg",
         "details": "Sausage with egg features a savory hot sausage, a slice of melty American cheese, and a delicious freshly cracked egg all on a freshly toasted English muffin",
         "price": "$4",
-        "category": "veggie"
+        "category": "veggie",
+        "stock" : 5
     }
     ,
     {
@@ -32,7 +36,8 @@
         "img": "https://i.pinimg.com/236x/5a/00/a2/5a00a291b0f3fd782eecd76c7c65ec48.jpg",
         "details": "Sausage Biscuit is the perfect sausage breakfast sandwich, made with sizzling hot sausage on a warm buttermilk biscuit thats topped with real butter and baked to perfection",
         "price": "$4",
-        "category": "veggie"
+        "category": "veggie",
+        "stock" : 5
     }
     ,
     {
@@ -41,7 +46,8 @@
         "img": "https://i.pinimg.com/236x/f6/78/b9/f678b90a2130ed3824894bea34eff167.jpg",
         "details": "Sausage, Egg & Cheese feature soft, warm griddle cakes—with the sweet taste of maple—that hold a fluffy folded egg, savory sausage, and melty American cheese",
         "price": "$4",
-        "category": "veggie"
+        "category": "veggie",
+        "stock" : 5
     }
     ,
     {
@@ -50,7 +56,8 @@
         "img": "https://i.pinimg.com/236x/18/39/4b/18394b052a4d655bd38f23231b39c230.jpg",
         "details": "Crispy Chicken Sandwich is a southern style fried chicken sandwich that's crispy, juicy and tender perfection",
         "price": "$4",
-        "category": "tradicional"
+        "category": "tradicional",
+        "stock" : 5
     }
     ,
     {
@@ -59,7 +66,8 @@
         "img": "https://i.pinimg.com/236x/e3/e5/b0/e3e5b0ed2b932874e435ce1e06413969.jpg",
         "details": "Get a little extra with toppings. Go deluxe with shredded lettuce, Roma tomatoes and mayo to take crispy, juicy and tender to the next level. The Deluxe Crispy Chicken sandwich has 530 calories.",
         "price": "$4",
-        "category": "tradicional"
+        "category": "tradicional",
+        "stock" : 5
     }
     ,
     {
@@ -68,7 +76,8 @@
         "img": "https://i.pinimg.com/236x/de/71/af/de71af61a3956ab4cb57a71d97784c96.jpg",
         "details": "With our Spicy Pepper Sauce topping the southern style fried chicken fillet on a toasted potato roll, this sandwich was made for those who like it crispy, juicy, tender and hot.",
         "price": "$4",
-        "category": "veggie"
+        "category": "veggie",
+        "stock" : 5
     }
     ,
     {
@@ -77,6 +86,7 @@
         "img": "https://i.pinimg.com/236x/9f/6e/48/9f6e48b290d77cc90104ecbd3100a6f0.jpg",
         "details": "The Spicy Deluxe Crispy Chicken is big on everything, including heat. Our southern-style fried chicken fillet on a potato roll, topped with shredded lettuce, Roma tomatoes and Spicy Pepper Sauce kicks crispy, juicy and tender up to the highest level.",
         "price": "$4",
-        "category": "tradicional"
+        "category": "tradicional",
+        "stock" : 5
     }
 ]

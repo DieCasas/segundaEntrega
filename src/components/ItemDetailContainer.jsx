@@ -1,33 +1,25 @@
 import ItemDetail from "./ItemDetail";
-import { useState } from "react";
-import data from '../../data.json'
-import { useParams } from "react-router";
+import { useState, useEffect } from "react";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
+import { useParams } from "react-router-dom";
 const ItemDetailContainer = () => {
   const { id } = useParams();
-  const [foods, setFoods] = useState([]);
-  const getDatos = () => {
-    return new Promise((resolve, reject) => {
-      if (data.length === 0) {
-        reject(new Error("No hay datos"));
+
+  const [food, setFood] = useState([]);
+
+  useEffect(() => {
+    const dataBase = getFirestore();
+
+    const item = doc(dataBase, "Burgers", id);
+    getDoc(item).then((snapshot) => {
+      if (snapshot.exists()) {
+        const docs = snapshot.data();
+        setFood(docs);
       }
-      setTimeout(() => {
-        const foodFilter = data.filter((food) => food.id == id);
-        resolve(foodFilter);
-      }, 2000);
     });
-  };
+  }, []);
 
-  async function fetchingData() {
-    try {
-      const datosFetched = await getDatos();
-      setFoods(datosFetched);
-    } catch (err) {
-      console.log(err);
-    }
-  }
-
-  fetchingData();
-  return <ItemDetail foods={data} />;
+  return <ItemDetail foods={food} id={id} />;
 };
 
 export default ItemDetailContainer;
